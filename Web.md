@@ -32,3 +32,48 @@ it's link between user and server.
 
 # Application architecture
 
+...
+
+
+# ESoft(21.03)
+
+- NAT
+- Динамическое распределение
+- Клиент-серверная архитектура(Парадигма)
+- Протокол(договоренность)
+
+## Front
+- Визуал
+- UI
+- UX
+- Тех. часть
+- API
+- Store
+
+## Back
+
+- WebServer
+	- Static
+	- App
+		- Middleware
+			- Endpoint(API)
+				- Logic
+					- Storage(DB)		
+
+- Apache
+- Nginx
+
+Маршрутизация- распределение
+Fork
+EndPoint
+прокси функция
+Персистентность
+Middleware
+WebServer
+web socket
+stream(реализация мессенджера)	
+ORM
+
+
+
+
